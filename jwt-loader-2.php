@@ -11,10 +11,10 @@ class_alias('Firebase\JWT\JWT', 'JWT');
 class_alias('Firebase\JWT\Key', 'JWTKey');
 
 // Configuración
-define('ENCRYPT_METHOD', 'AES-256-CBC');
-define('SECRET_KEY',     '$BP@2017');
-define('SECRET_IV',      '101712');
-define('JWT_SECRET_KEY', '$C!4@2017');
+define('ENCRYPT_METHOD', '');
+define('SECRET_KEY',     '');
+define('SECRET_IV',      '');
+define('JWT_SECRET_KEY', '');
 define('JWT_ISSUER',     'http://192.168.150.43:8092');
 define('JWT_AUDIENCE',   'miappmovil');
 define('JWT_LEEWAY',    60); // segundos de tolerancia para expiración

@@ -9,10 +9,10 @@ require_once(__DIR__ . '/Key.php');
 require_once(__DIR__ . '/JWT.php');
 
 // 🔐 Configuración
-define('ENCRYPT_METHOD', 'AES-256-CBC');
-define('SECRET_KEY',     '$BP@2017');
-define('SECRET_IV',      '101712');
-define('JWT',            '$C!4@2017');
+define('ENCRYPT_METHOD', '');
+define('SECRET_KEY',     '');
+define('SECRET_IV',      '');
+define('JWT',            '');
 
 // 🔒 Funciones de encriptación
 function decrypt($string) {
