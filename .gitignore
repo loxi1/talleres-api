@@ -1,0 +1,12 @@
+vendor
+phpunit.phar
+phpunit.phar.asc
+composer.phar
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
+EnvVar.php
+jw-loader-3.php
+jw-loader-2.php
+jw-loader-1.php
+jw-loader.php
